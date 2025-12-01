@@ -1,0 +1,61 @@
+More information at http://forum.kalypsomedia.com/forumdisplay.php?fid=34
+
+Below you will find a FAQ and the most important information about the modding files. 
+For a better understanding we left some notes in every file.
+
+For those who haven't got any experience with modding, a few more details:
+
+F: What is 'modding'?
+A: 'Modding' comes from, 'to modify' and is related to the field of computer games on the modification of data / parameters that influence the game behavior.
+
+F: What do I need to know specifically 'Patrician IV (Road)'-modding?
+A: The economic system of 'P IV' is stable without any changes. If you change some parameters in the *.ini-files, it could lead to an imbalance in the economic system (unfortunately, sometimes you notice this in the late game),
+but you can restore the original state by overwriting the edited files with the original files.
+
+F: What files are available and what can I do with them?
+A: There are 51 *.ini-files you can edit with any text editor:
+expedition.ini – Mediterranean
+gameplay.ini – reputation, difficulty, game speed, date, ect. 
+highway.ini – roads and treks
+playerdata.ini – e.g. ranking system
+seabattle.ini – sea battle
+seamapdata.ini – sea map
+shipdata.ini – ships
+townbattle.ini – town battle
+townlist.ini – cities and productions
+tradesystem.ini – trading system, goods, productions, building, ect.
+townmap00.ini until townmap39.ini – (Caution! Editing could cause crashes!) positioning of buildings, streets (invisible too), ect.
+townpos.ini – cities
+
+Q: How to install?
+A: Go to your 'Patrician IV - installation directory and unzip the files, so that a folder named 'ini' appears.
+
+Q: Oh no… I think I've caused some critical behavior by editing those files!?! What to do now?
+A: Easy, just overwrite the edited files with the original data.
+
+Q: Can I change the optic of a building/ship/ect.?
+A: No. Assets can't be edited.
+
+Q: Is there a possibility to change texts like the chronic log/the names of cities/ect.?
+A: No, that not possible by editing *.ini-files.
+
+Q: Can I add some more goods/icons?
+A: No, not possible either.
+
+Q: Are changes on that *.ini-files on-the-fly or do I have to restart the game?
+A: Restart the game.
+
+Q: Is it possible to add new roads? Is it possible to get all roads at the beginning of a new game?
+A: It is not possible to get all roads at the beginning of a new game. Editing/Adding new roads is not that easy, but there will be a tutorial in our board.
+
+Q: Can I add new cities?
+A: Yes, with limitations (max. 2 new cities), but it's not that easy either. A tutorial will be at the Kalypso-board.
+
+Q: Can I add a third commodity to my production chains?
+A: Yes, but it cannot be displayed (remains hidden).
+
+Q: Is the interface editable?
+A: No, it is not.
+
+Q: How can I assure that my changes will not affect the late game in a negative way?
+A: You can simulate what else would be done in many ingame-years. You can edit the rank system and the game speed in order to stimulate growth and the AI?? (not recommendable for a 'normal' game). 

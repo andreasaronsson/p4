@@ -1,0 +1,65 @@
+Weitere Informationen auf http://forum.kalypsomedia.com/forumdisplay.php?fid=33
+
+Nachfolgend findet Ihr relevante Informationen, Fragen und Antworten zu den Modding Dateien.
+Zum besseren Verständnis haben wir die Dateien auch mit einem Kommentar versehen.
+
+Für diejenigen die sich bisher noch nicht wirklich mit Modding auseinander gesetzt haben, ein paar Infos:
+
+F: Was ist ‚Modding‘?
+A: Das Wort ‚Modding‘ leitet sich von ‚Modify‘ (Modifizieren) ab und bezieht sich im Bereich der Computerspiele auf das Modifizieren von Daten/Parametern die Einfluss auf das Spielgeschehen haben.
+
+F: Was muss ich spezifisch für ‚Patrizier IV (RoaD)‘ beachten?
+A: Das Wirtschaftssystem in ‚P IV‘ ist ohne Veränderungen stabil. Wenn nun einige Parameter in den *.ini-Dateien verändert werden kann dies dazu führen, dass ein Ungleichgewicht im Wirtschaftssystem entsteht (manchmal bemerkt man dies leider erst im späten Spiel) und dadurch Zustände entstehen können, die ein Weiterspielen relativ sinnlos machen. Selbstverständlich kann der Ursprungszustand durch erneutes Überschreiben der *.ini-Dateien wiederhergestellt werden. 
+
+F: Welche Dateien gibt es und was kann ich damit modden?
+A: Es gibt 51 *.ini-Dateien die man mit einem Texteditor bearbeiten kann:
+expedition.ini – alles rund um Mittelmeer 
+gameplay.ini – diverse Möglichkeiten wie z.B. Ansehen, Schwierigkeit, Verbrauch, Lebensqualität, Spielgeschwindigkeit, Startdatum, Wetter, Forschung,  ect.
+highway.ini – Landwege und Treckgeschwindigkeit
+playerdata.ini – beispielsweise Rangsystem
+seabattle.ini – diverse Parameter in Bezug auf die Seeschlacht
+seamapdata.ini – Einstellungen auf der Seekarte (z.B. Treibgut)
+shipdata.ini – Parameter zu den Schiffstypen
+townbattle.ini – Parameter zur Landschlacht
+townlist.ini – Städte und deren Produktionen
+tradesystem.ini – Handelssystem, Waren, Produktionen, Bau, ect.
+townmap00.ini bis townmap39.ini – (Achtung! Ein manuelles verschieben ohne das entsprechende Tool wird leider nur mit enormen Zeitaufwand möglich sein und könnte in ungünstigen Fällen auch zum Absturz des Spiels führen, daher ist beim editieren Vorsicht geboten.) Positionierung aller Gebäude, Straßen (auch unsichtbare), Dekos u.s.w.
+townpos.ini – Parameter zu den Städten
+
+F: Wie installiere ich die Daten?
+A: Gehe in das Patrizier IV-Installationsverzeichnis und entpacke dort die Daten, sodass ein Ordner Namens ‚ini‘ erstellt wird in dem die Dateien nun liegen.
+
+F: Oh nein… Ich glaube ich hab durch meine Einstellungen gerade mein Spiel ‚zerschossen‘!?! Was nun?
+A: Einfach die Daten erneut mit den Original-Daten überschreiben und das Problem sollte behoben sein.
+
+F: Kann man das Aussehen der Schiffe/Häuser/ect. verändern?
+A: Nein. Assets können nicht editiert werden.
+
+F: Besteht auch die Möglichkeit die Chronik/Namen der Städte/Texte zu ändern?
+A: Nein, denn dies kann nicht über die *.ini-Dateien eingestellt werden.
+
+F: Kann ich neue Waren/Icons hinzufügen?
+A: Nein. Kann nicht über *.ini-Dateien gelöst werden.
+
+F: Ziehen die Änderungen in den ini-Dateien on-the-fly oder muss man das Spiel/Savegame erst neu starten?
+A: Neustart erforderlich.
+
+F: Kann ich neue Landwege erstellen bzw. von Beginn an freischalten?
+A: Freischalten zu Beginn ist nicht möglich. Das Erstellen ist möglich, aber nicht einfach. Ein Tutorial can im Kalypso-forum gefunden werden.
+
+F: Kann ich neue Städte erstellen?
+A: Ja, mit Einschränkungen (max. 2 neue Städte), ist aber nicht auch nicht einfach. Ein Tutorial can im Kalypso-forum gefunden werden.
+
+F: Kann ich Produktionsketten um einen 3. Rohstoff erweitern?
+A: Ja, doch dies kann grafisch nicht dargestellt werden (bleibt unsichtbar).
+
+F: Kann ich das Interface bearbeiten?
+A: Nein, nicht möglich.
+
+F: Gibt es eine Testmöglichkeit mit der ich feststellen kann, ob meine Änderungen auch im fortgeschrittenen Spielverlauf keine nachhaltig negativen Einflüsse auf das Spiel haben?
+A: Eine Möglichkeit wäre (um auch das KI-Wachstum anzuregen) sich über die *.ini-Daten Rang und Geld zu verschaffen um dann Betriebe und Häuser in verschiedenen Städten zu errichten. Die Spielgeschwindigkeit würde ich erst danach beschleunigen. So könnte man simulieren was man sonst in vielen Jahren erledigt.
+
+
+
+
+
